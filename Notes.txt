@@ -1,0 +1,9 @@
+
+This is an example for strategy pattern
+
+Drive Mode is an interface with 2 modes - sports and normal drive mode
+Vehicle is an interface . Each vehicle will have a drive mode 
+NormalVehicle  SportsVehicle and OffRoadVehicle inherit the Vehicle class.
+NormalVehicle has normal drive mode whereas SportsVehicle and OffRoadVehicle have sports drive mode
+
+By having a drive mode interface within Vehicle, code duplication is avoided. If not SportsVehicle and OffRoadVehicle would have to contain definition of drive() method
